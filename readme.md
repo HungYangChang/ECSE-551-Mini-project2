@@ -12,7 +12,7 @@ The code.zip contains 6 files:
   * miniproject_2_supplemental.ipynb contains each step for choosing parameters and preprocessing methods for Multinomial Naive Bayes model. The result is shown as Table in section 4.1.1  Multinomial Naïve Bayes in Report.pdf
 * 3 Dataset files - train.csv, test.csv, and Submit.csv
   * Submit.csv is the prediction of our own Naive Bayes function with an accuracy of 93.1% according to Kaggle.
-* 1 ReadMe file - ReadMe.md
+* 1 ReadMe file - readme.md
 
 ## Report.pdf
 All experiments are summarized in Report.pdf
