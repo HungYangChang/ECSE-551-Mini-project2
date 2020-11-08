@@ -6,7 +6,7 @@
 Text classification is a well-known machine learning problem. In this project, a classifier is built that identifies the subreddit from which a comment originated. Two separate algorithms are used, a multinomial Naive Bayes classifier and a support-vector machine classifier. To obtain optimal performance from these classifiers, the raw text comments must be converted to features. The majority of this report presents the methods used to construct the features which yielded the best results. Through 5-fold cross-validation, the best results were found using the multinomial Naive Bayes classifier with a tuned Laplace smoothing parameter, and assuming a uniform distribution of each class. Results were further improved by selecting features which were determined to be the most relevant using a chi-squared statistical test. This classifier was then applied to a test set, yielding a preliminary accuracy of 93.1% according to Kaggle. 
 
 ## Code.zip
-The code.zip contains 5 files:
+The code.zip contains 6 files:
 * 2 Colab notebook files - miniproject_2_final.ipynb and miniproject_2_supplemental.ipynb
   * miniproject_2_final.ipynb contains all utility functions for our own Naive Bayes classifier, and all experiments to improve model performance. One other sklearn classifier, SVM is utilized here to compare with our own classifier.
   * miniproject_2_supplemental.ipynb contains each step for choosing parameters and preprocessing methods for Multinomial Naive Bayes model. The result is shown as Table in section 4.1.1  Multinomial Naïve Bayes in Report.pdf
