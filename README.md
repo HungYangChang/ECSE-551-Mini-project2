@@ -1,4 +1,4 @@
-# Naive Bayes Classifier - Reddit Comment classification
+# Naive Bayes Classifier - Reddit Comments classification
 ### Contributors: Jonathan Arsenault, Hung-Yang Chang, Anan Lu
 ### Mini-Project 2 - ECSE 551 McGill University
 
@@ -20,3 +20,6 @@ All experiments are summarized in Report.pdf
 1. Please Upload to python notebook (.ipynb file) to Colab
 2. Select the required notebook and select "Run" in each code.
 3. Note: Some of the codes are involved gird searching and may not be able to run in colab due to memory limit.
+
+## More info
+Code are also available on GitHub link (https://github.com/HungYangChang/ECSE-551-Mini-project2)
